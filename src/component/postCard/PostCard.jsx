@@ -27,7 +27,7 @@ import CommentCard from "../CommentCard/CommentCard";
 import { Link } from "react-router";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import CreateComment from "../CreateComment/CreateComment";
-import LikeButton from "../likeButton/likeButton";
+import LikeButton from "../LikeButton/LikeButton";
 import LikeShower from "../LikeShower/LikeShower";
 import CommentShower from "../CommentShower/CommentShower";
 import { axiosInterceptors } from "../../shared/axiosInterceptors/axiosInterceptors";
