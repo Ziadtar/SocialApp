@@ -3,7 +3,7 @@ import Login from "../pages/Auth/Login/Login";
 import Register from "../pages/Auth/register/register";
 import Posts from "../pages/Posts/Posts";
 import Layout from "../component/layout/Layout";
-import ProtectedRoute from "./protectedRoute/protectedRoute";
+import ProtectedRoute from "./ProtectedRoute/ProtectedRoute";
 import AuthProtectedRoute from "./AuthProtectedRoute/AuthProtectedRoute";
 import Profile from "../pages/profile/Profile";
 import Feeds from "../pages/Feeds/Feed";
