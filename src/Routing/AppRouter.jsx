@@ -8,13 +8,13 @@ import Feeds from "../pages/Feeds/Feed";
 import PostDetails from "../pages/PostDetails/PostDetails";
 import Saved from "../pages/Saved/Saved";
 import AllSuggestedFriends from "../pages/AllSuggestedFriends/AllSuggestedFriends";
-import ProfileMyPosts from "../pages/profileMyPosts/profileMyPosts";
 import ProfileSaved from "../pages/ProfileSaved/ProfileSaved";
 import ChangePassword from "../pages/ChangePassword/ChangePassword";
 import Notifications from "../pages/Notifications/Notifications";
 import ProtectedRoute from "./TempProtectedRoute/ProtectedRoute";
 import Profile from "../pages/TmpProfile/Profile";
 import MyPosts from "../pages/TempMyPosts/myPosts";
+import ProfileMyPosts from "../pages/TempProfileMyPosts/profileMyPosts";
 
 export const myRouter = createBrowserRouter([
   {
