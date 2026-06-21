@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@800&display=swap");
 @import "tailwindcss";
 @plugin './hero.js';
 /* Note: You may need to change the path to fit your project structure */
