@@ -4,7 +4,6 @@ import Register from "../pages/Auth/register/register";
 import Posts from "../pages/Posts/Posts";
 import Layout from "../component/layout/Layout";
 import AuthProtectedRoute from "./AuthProtectedRoute/AuthProtectedRoute";
-import ProtectedRoute from "./ProtectedRoute/ProtectedRoute";
 import Profile from "../pages/profile/Profile";
 import Feeds from "../pages/Feeds/Feed";
 import MyPosts from "../pages/myPosts/myPosts";
@@ -15,6 +14,7 @@ import ProfileMyPosts from "../pages/profileMyPosts/profileMyPosts";
 import ProfileSaved from "../pages/ProfileSaved/ProfileSaved";
 import ChangePassword from "../pages/ChangePassword/ChangePassword";
 import Notifications from "../pages/Notifications/Notifications";
+import ProtectedRoute from "./TempProtectedRoute/ProtectedRoute";
 
 export const myRouter = createBrowserRouter([
   {
