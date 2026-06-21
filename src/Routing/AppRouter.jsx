@@ -4,7 +4,7 @@ import Register from "../pages/Auth/register/register";
 import Posts from "../pages/Posts/Posts";
 import Layout from "../component/layout/Layout";
 import AuthProtectedRoute from "./AuthProtectedRoute/AuthProtectedRoute";
-import ProtectedRoute from "./ProtectedRoute/protectedRoute";
+import ProtectedRoute from "./ProtectedRoute/ProtectedRoute";
 import Profile from "../pages/profile/Profile";
 import Feeds from "../pages/Feeds/Feed";
 import MyPosts from "../pages/myPosts/myPosts";
