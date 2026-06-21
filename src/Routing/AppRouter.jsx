@@ -13,7 +13,7 @@ import ChangePassword from "../pages/ChangePassword/ChangePassword";
 import Notifications from "../pages/Notifications/Notifications";
 import ProtectedRoute from "./TempProtectedRoute/ProtectedRoute";
 import Profile from "../pages/TmpProfile/Profile";
-import MyPosts from "../pages/TempMyPosts/myPosts";
+import MyPosts from "../pages/TempMyPosts/MyPosts";
 import ProfileMyPosts from "../pages/TempProfileMyPosts/profileMyPosts";
 
 export const myRouter = createBrowserRouter([
