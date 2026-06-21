@@ -5,7 +5,7 @@ export default function AuthProtectedRoute({children}) {
         return children
     }
   return (
-       <Navigate to="/Layout" />
+       <Navigate to="/Layout/feed" />
    
   )
 }

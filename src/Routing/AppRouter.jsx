@@ -18,6 +18,14 @@ import Notifications from "../pages/Notifications/Notifications";
 
 export const myRouter = createBrowserRouter([
   {
+    index: true,
+    element: (
+      <AuthProtectedRoute>
+        <Login />
+      </AuthProtectedRoute>
+    ),
+  },
+  {
     path: "login",
     element: (
       <AuthProtectedRoute>
@@ -33,14 +41,7 @@ export const myRouter = createBrowserRouter([
       </AuthProtectedRoute>
     ),
   },
-  {
-    index: true,
-    element: (
-      <ProtectedRoute>
-        <Posts />
-      </ProtectedRoute>
-    ),
-  },
+
   {
     path: "PostDetails/:id",
     element: (

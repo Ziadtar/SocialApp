@@ -2,7 +2,6 @@ import { useQuery } from "@tanstack/react-query";
 import { axiosInterceptors } from "../../shared/axiosInterceptors/axiosInterceptors";
 
 export default function CommentShower({ needed }) {
-  console.log(needed)
   async function getCommentsCount() {
     return axiosInterceptors.get(`posts/${needed._id}/comments`);
   }
