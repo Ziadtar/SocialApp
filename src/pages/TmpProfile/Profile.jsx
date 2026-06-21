@@ -12,7 +12,6 @@ export default function Profile() {
   const { userData, getUserData } = useContext(AuthContext);
   const [switchTab, setSwitchTab] = useState("myPosts");
   const {
-    bookmarksCount,
     name,
     photo,
     username,
@@ -146,7 +145,7 @@ export default function Profile() {
                           Bookmarks
                         </p>
                         <p className="mt-1 text-2xl font-black text-slate-900 sm:text-3xl">
-                          {bookmarksCount}
+                          {bookmarksData?.length}
                         </p>
                       </div>
                     </div>
