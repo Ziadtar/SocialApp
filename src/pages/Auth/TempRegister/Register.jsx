@@ -1,10 +1,4 @@
-import {
-  DatePicker,
-  Form,
-  Input,
-  Select,
-  SelectItem,
-} from "@heroui/react";
+import { DatePicker, Form, Input, Select, SelectItem } from "@heroui/react";
 import { Key, Profile2User, SmsTracking, User, UserAdd } from "iconsax-reactjs";
 import { useState } from "react";
 import { useForm, Controller } from "react-hook-form";
@@ -235,7 +229,7 @@ export const Register = () => {
                   errorMessage={errors.username?.message}
                   labelPlacement="outside"
                   name="username"
-                  placeholder="username (optional)"
+                  placeholder="username"
                   startContent={
                     <UserAdd size="18" color="#90A1B9" className="me-1" />
                   }
